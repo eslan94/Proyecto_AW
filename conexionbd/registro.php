@@ -7,7 +7,7 @@
     $celular=$_POST['celular'];
     $direccion=$_POST['direccion'];
 
-    $consulta="INSERT into usuario(nombre, apellido, email, celular, direccion) values('$nombre', '$apellido', '$email', '$celular', '$direccion')";
+    $consulta="INSERT into cliente(nombre, apellido, email, celular, direccion) values('$nombre', '$apellido', '$email', '$celular', '$direccion')";
 
     $resultado=mysqli_query($conexion, $consulta);
 
