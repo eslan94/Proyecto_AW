@@ -192,43 +192,26 @@
       </div>
       <div class="contenedor-form">
         <h4>Registrate para adquirir nuestros productos y ofertas</h4>
-        <form class="row g-2">
+        <form class="row g-2" action="registro.php" method="post">
           <div class="col-md-5">
-            <label for="inputNombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputNombre">
-          </div>
-          <div class="col-md-5">
-            <label for="inputApellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="inputApellido">
+            <label for="idNombre" class="form-label">Nombre</label>
+            <input type="text" name="nombre" class="form-control" id="idNombre">
           </div>
           <div class="col-md-5">
-            <label for="inputEmail4" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <label for="idApellido" class="form-label">Apellido</label>
+            <input type="text" name="apellido" class="form-control" id="idApellido">
           </div>
           <div class="col-md-5">
-            <label for="inputPassword4" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-md-4">
-            <label for="inputCity" class="form-label">Provincia</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-2">
-            <label for="inputState" class="form-label">Ciudad</label>
-            <select id="inputState" class="form-select">
-              <option selected>Seleccione</option>
-              <option>Quito</option>
-              <option>Guayaquil</option>
-              <option>Cuenca</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputCelular" class="form-label">Celular</label>
-            <input type="text" class="form-control" id="inputCelular">
+            <label for="idEmail" class="form-label">Correo</label>
+            <input type="email" name="email" class="form-control" id="idEmail">
+          </div>          
+          <div class="col-md-3">
+            <label for="idCelular" class="form-label">Celular</label>
+            <input type="text" name="celular" class="form-control" id="idCelular">
           </div>
           <div class="col-8">
-            <label for="inputAddress" class="form-label">Dirección</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+            <label for="idAddress" class="form-label">Dirección</label>
+            <input type="text" name="direccion" class="form-control" id="idAddress" placeholder="Dirección">
           </div>
           <div class="col-8">
             <button type="submit" class="btn btn-primary">Enviar</button>
