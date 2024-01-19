@@ -23,13 +23,3 @@ containerUno.addEventListener('mouseout',()=>{
     containerColor(containerDos, 'mouseout');
 })
 
-
-
-
-
-
-
-
-
-container-flex
-contenedor-info
