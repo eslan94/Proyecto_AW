@@ -8,6 +8,25 @@
     height: 90%;
 }
 
+.zoom-contenedor, .area-zoom{
+    position: relative;
+}
+
+.lupa{
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.zoom-height{
+    position:absolute;
+    display: none;
+    overflow: hidden;
+}
+
+.zoom-height img{
+    position: absolute;
+}
 
 
 .contenedor-gridFooter{
