@@ -1,0 +1,81 @@
+
+.divisor{
+    display: flex;
+    background-color: bisque;
+    height: 120px;
+}
+
+.contenedor-contacto{
+    display:block;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.titulo{
+    margin-left: 100px;
+}
+
+.titulo-text{
+    font-size:x-large;
+    margin-left: 100px;
+}
+
+.contenedor-flex{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.direccion-text{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.contenedor-gridFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.caja1{
+    background-color: bisque;
+    grid-area: 1/1/2/2;
+    width: 50%;
+}
+.caja2{
+    background-color: bisque;
+    grid-area: 1/2/2/3;
+    width: 50%;
+}
+.caja3{
+    background-color: bisque;
+    grid-area: 1/3/2/4;
+    width: 50%;
+}
+.caja4{
+    grid-area: 2/1/4/2;
+}
+.caja5{
+    grid-area: 2/2/4/3;    
+}
+.caja6{
+    grid-area: 2/3/9/4;
+}
+.caja7{
+    background-color: bisque;
+    grid-area: 4/1/5/2;
+    width: 50%;
+}
+.caja8{
+    background-color: bisque;
+    grid-area: 4/2/5/3;
+    width: 50%;
+}
+.caja9{
+    grid-area: 5/1/9/2;
+}
+.caja10{
+    grid-area: 5/2/9/3;
+}

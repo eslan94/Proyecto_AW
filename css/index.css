@@ -32,6 +32,12 @@
     padding: 20px;
 }
 
+.divisor{
+    display: flex;
+    background-color: bisque;
+    height: 120px;
+}
+
 .navbar{
     display: block;
     padding: 15px;
